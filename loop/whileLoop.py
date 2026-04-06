@@ -18,3 +18,17 @@ i = 5
 while i >= 1:
     print(i)
     i -= 1
+
+n = 5
+
+sum = 0
+for i in range(n+1):
+    sum += i
+print("total sum =",i) 
+
+r = 7
+SUM = 0
+i = 1
+while i <= r:
+    SUM += i
+print("total sum =",i) 

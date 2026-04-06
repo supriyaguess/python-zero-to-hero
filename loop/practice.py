@@ -65,3 +65,12 @@ while x <= 10:
         continue #skip
     print(x)
     x += 1
+
+#factorial of first n numbers
+n = 5
+fact = 0
+while i <= n:
+    fact *= i
+    i += 1
+
+print("total sum =", fact)
